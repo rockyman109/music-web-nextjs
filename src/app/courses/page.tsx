@@ -21,7 +21,7 @@ const Page = () => {
                     playing={false}
                     width='100%'
                     height='100%'
-                    playsinline={true}
+{/*                     playsinline={true} */}
                     config={{
                         file: {
                             attributes: { controlsList: 'nodownload' },
