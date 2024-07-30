@@ -15,7 +15,7 @@ const Page = () => {
                 All courses ({courseData.courses.length})
             </h1>
             <div className="flex justify-center flex-wrap">
-                <ReactPlayer
+{/*                 <ReactPlayer
                     url="https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
                     // url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
                     controls
@@ -27,8 +27,8 @@ const Page = () => {
                             attributes: { controlsList: 'nodownload' },
                         },
                     }}
-                />
-                {/* {courseData.courses.map((course) => (
+                /> */}
+                {courseData.courses.map((course) => (
                     <CardContainer key={course.id} className="inter-var m-4">
                         <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
                             <CardItem
@@ -70,7 +70,7 @@ const Page = () => {
                             </div>
                         </CardBody>
                     </CardContainer>
-                ))} */}
+                ))} 
             </div>
             <Meteors number={50} />
         </div>
