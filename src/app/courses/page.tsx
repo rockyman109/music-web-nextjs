@@ -16,7 +16,8 @@ const Page = () => {
             </h1>
             <div className="flex justify-center flex-wrap">
                 <ReactPlayer
-                    url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    url="https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+                    // url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
                     controls
                     playing={false}
                     width='100%'
